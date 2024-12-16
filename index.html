@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <style>  
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="./about.html" class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div class="px-4 pt-5 my-5 text-center border-bottom">
+        <h1 class="custom-color" class="display-4 fw-bold text-body-emphasis">Manuel Farms</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">At Manuel Farms, we offer the best solutions to our customers, by making sure they get directly to the farmers, 
+            thereby making sure the gap between our clients and farmers is shortened.</p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+            <a href="./contact.html" type="button" class="btn btn-outline-secondary btn-lg px-4">Contact Us</a>
+          </div>
+        </div>
+        <div class="overflow-hidden" style="max-height: 900vh;">
+          <div class="container px-5">
+            <img src="./images/corn.jpg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="corn image" width="700" height="900" loading="lazy">
+          </div>
+        </div>
+      </div>
+
+      <div class="container px-4 py-5" id="featured-3">
+        <h2 class="custom-color2" class="pb-2 border-bottom">Why Manuel Farms?</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <img src="./images/briefcase.svg" alt="briefcase" height="30">
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Professional</h3>
+            <p>Our team of professional farmers are trained to prtoritize 
+              efficiency, productivity, and customer satisfaction. We
+              know and understand how important food is, that's why we
+              put our customer's needs first.</p>
+            <a href="#" class="icon-link">
+              <!-- Call to action -->
+              <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+            </a>
+          </div>
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <img src="./images/bus-front.svg" alt="bus-front" height="30">
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Countrywide</h3>
+            <p>We offer a range of services to suit your individual needs,
+              whether you're ordering within the state or across the 
+              country. Our team can handle everything from processing to
+              packaging and delivery, so you're rest assured that your 
+              food item gets to you in good healthy condition.</p>
+            <a href="#" class="icon-link">
+              <!-- Call to action -->
+              <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+            </a>
+          </div>
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <img src="./images/chat-square-heart.svg" alt="chat-square-heart" height="30">
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Personal Touch</h3>
+            <p>At our core, we believe that food comes first. By providing
+              exceptional farming services in Nigeria, we hope to revolutionize
+              the way people think about farming/food and provide a better,
+              more personalized experience for our customers. Contact us today
+              to learn more about how we can help you get that food you want.</p>
+            <a href="#" class="icon-link">
+              <!-- Call to action -->
+              <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    <div class="container">
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/pig farm.jpeg" class="d-block w-100" alt="pigs">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Mc-Agro Pig Farms</h5>
+              <p>We Deliver Farm Fresh Pork Meat To Your Door Step.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/fish farm.jpg" class="d-block w-100" alt="fish">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Mc-Agro Fisheries</h5>
+              <p>The Best Available Fish You Can Get.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/poultry farm.jpg" class="d-block w-100" alt="chickens">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Vicky's Farms</h5>
+              <p>Our Goal Is To Offer YOU The Best Healthy Chickens, YOU Can Ever Get.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+        <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Company, Inc</span>
+      </div>
+  
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a>
+        <img src="./images/twitter-x.svg" alt="twitter"></li>
+        <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a>
+        <img src="./images/instagram.svg" alt="instagram"></li>
+        <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a>
+        <img src="./images/facebook.svg" alt="facebook"></li>
+      </ul>
+    </footer>
+
+
+    <script src="index.js" charset="utf-8"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
