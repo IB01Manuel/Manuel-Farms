@@ -1,0 +1,18 @@
+.custom-color {
+    color: green;
+}
+
+.custom-color2 {
+    color: #0d6efd;
+}
+
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+}
+
+.img {
+    border-radius: 50%;
+    height: 50px;
+}
